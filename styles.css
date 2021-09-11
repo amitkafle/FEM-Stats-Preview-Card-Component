@@ -124,7 +124,7 @@ li {
     content: "QUERIES";
 }
 
-@media only screen and (max-width: 720px) and (min-width: 300px) {
+@media only screen and (max-width: 1000px) and (min-width: 300px) {
     .container {
         min-width: 230px;
         max-width: 420px;
@@ -148,6 +148,7 @@ li {
         max-width: 420px;
     }
     .header-img::after {
+        border-radius: 5px 5px 0 0;
         content: "";
         background-color: var(--clr-accent);
         position: absolute;
